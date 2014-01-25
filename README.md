@@ -100,7 +100,7 @@ Now see the the installation instructions for Ubuntu Linux!
 
 # Install Sublime Text
 
-	http://www.sublimetext.com/
+http://www.sublimetext.com/
 
 Install the 'subl' command line tool as well.
 
