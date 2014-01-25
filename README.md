@@ -162,7 +162,7 @@ application. It can be found in Applications/Utilities.
 
 3. __Install Homebrew__
 
-	* ```ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"```
+	* ```ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"```
 	* The install page if you have trouble: [http://mxcl.github.io/homebrew/](http://mxcl.github.io/homebrew/)
 
 4.	__Install git__
