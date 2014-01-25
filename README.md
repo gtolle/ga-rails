@@ -124,18 +124,11 @@ Make your command prompt prettier.
 
 Set your background to black and your foreground to white.
 
-Download this file and place it into ~
-
-[.git-completion.sh](.git-completion.sh)
-	
-Then, 
-
 	$ subl ~/.bash_profile
 	
 Paste these lines into the end:
 
 	alias ls='ls -Fc'
-	source ~/.git-completion.sh
 	export PS1="\[\e]0;\u@\h \w\a\]\n\[\e[34m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
 
 Restart your terminal.
@@ -182,6 +175,20 @@ application. It can be found in Applications/Utilities.
 #Connect to GitHub
 
 Sign up for a GitHub account, make SSH keys, try cloning a repository over SSH.
+
+#Install Git-Completion terminal file
+
+Download this file and place it into ~
+
+[.git-completion.sh](.git-completion.sh)
+
+Then:
+
+	subl ~/.bash_profile
+	
+Add this line:
+
+	source ~/.git-completion.sh
 
 #Install Ruby
 
