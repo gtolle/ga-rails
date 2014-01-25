@@ -211,6 +211,11 @@ Add this line:
 
 	source ~/.git-completion.sh
 
+Delete the 'PS1' line and replace it with this:
+
+	export PS1="\[\e]0;\u@\h \w\a\]\n\[\e[34m\]\u@\h \[\e[33m\]\w\[\e[0m\]\$(__git_ps1)\n\$ "
+
+
 #Install Ruby
 
 Linux only:
