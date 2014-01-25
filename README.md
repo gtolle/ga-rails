@@ -174,7 +174,15 @@ application. It can be found in Applications/Utilities.
 
 #Connect to GitHub
 
-Sign up for a GitHub account, make SSH keys, try cloning a repository over SSH.
+Sign up for a GitHub account.
+
+Make your SSH keys, using this guide:
+
+https://help.github.com/articles/generating-ssh-keys
+
+Try cloning this repository over SSH.
+
+	$ git clone <repo ssh URL>
 
 #Install Git-Completion terminal file
 
