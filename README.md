@@ -240,8 +240,7 @@ Everybody:
 1.	__Install RVM with Ruby 2.0.0__
   	* ```\curl -sSL https://get.rvm.io | bash -s stable --ruby```
   	* The backslash in font of "curl" is not a typo.
-  	* ```rvm use 2.0.0 --default```
-  	
+
 2.	__Restart Your Terminal__
 
 3.	__Make sure the latest versions of RVM and Ruby were installed__
