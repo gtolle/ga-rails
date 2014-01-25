@@ -222,10 +222,10 @@ Add this line:
 
 ##Linux Users
 
-3. __Install curl__
+1. __Install curl__
 	* ```sudo apt-get install curl```
 
-4. __Install RVM__
+2. __Install RVM__
 	* ```\curl -L https://get.rvm.io | bash -s stable --ruby```
 	* The backslash in font of "curl" is not a typo.
 	*	Close and reopen terminal
@@ -246,12 +246,23 @@ Add this line:
 
 2. Create and run a rails app
 
-3. Add the postgres gem, and get that installing properly
+# Install Postgres
 
-```brew install postgresql```
+https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
 
-4. Add the nokogiri gem, and get that installing properly
+# Install Heroku Toolbelt
 
+Sign up for a Heroku account.
+
+Go here to install the Heroku command-line tools:
+
+https://devcenter.heroku.com/
+
+https://devcenter.heroku.com/articles/quickstart
+
+Try creating and deploying an empty rails app:
+
+https://devcenter.heroku.com/articles/getting-started-with-rails4
 
 #Install Markdown Previewer
   
