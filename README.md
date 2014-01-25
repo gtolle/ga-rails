@@ -154,10 +154,12 @@ application. It can be found in Applications/Utilities.
 	* The install page if you have trouble: [http://mxcl.github.io/homebrew/](http://mxcl.github.io/homebrew/)
 
 4.	__Install git__
+
 	*	```brew update```
 	*	```brew install git```
 
 5.	__Configure git with your Name and Email__
+
   	* [https://help.github.com/articles/setting-your-email-in-git](https://help.github.com/articles/setting-your-email-in-git)
   	* [https://help.github.com/articles/setting-your-username-in-git](https://help.github.com/articles/setting-your-username-in-git)
 
