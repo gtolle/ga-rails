@@ -262,13 +262,16 @@ Everybody:
 
 2. Create and run a rails app
 
+```
+	cd
 	rails new myapp
 	cd myapp
 	rails server
-	
-	http://localhost:3000
+```
 
-	Ctrl-C to kill the server
+In browser: http://localhost:3000
+
+At terminal: Ctrl-C to kill the server
 	
 3. Delete that rails app
 
