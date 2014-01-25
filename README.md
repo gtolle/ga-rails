@@ -112,12 +112,14 @@ Mac:
 
 	sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
+When it asks you for a password, enter your Mac system password (the one you use when you install apps).
+
 Linux:
 
 (Figure out where you downloaded and unpacked it)
 
 	sudo ln -s "<wherever you installed it>/bin/subl" /usr/local/bin/subl
-	
+
 Test the 'subl' command line tool.
 
 	subl hello.rb
