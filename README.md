@@ -126,7 +126,7 @@ Set your background to black and your foreground to white.
 
 Download this file and place it into ~
 
-	.git-completion.sh
+[.git-completion.sh](.git-completion.sh)
 	
 Then, 
 
