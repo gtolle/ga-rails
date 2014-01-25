@@ -275,9 +275,11 @@ At terminal: Ctrl-C to kill the server
 	
 3. Delete that rails app
 
+```
 	cd ..
 	rm -rf myapp
-	
+```
+
 # Install Postgres
 
 https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
