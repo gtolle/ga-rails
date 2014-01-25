@@ -102,7 +102,11 @@ Now see the the installation instructions for Ubuntu Linux!
 
 http://www.sublimetext.com/
 
-Install the 'subl' command line tool as well.
+# Run Terminal
+
+Finder > Applications > Utilities > Terminal
+
+# Install the 'subl' command line tool
 
 Mac:
 
@@ -117,6 +121,12 @@ Linux:
 Test the 'subl' command line tool.
 
 	subl hello.rb
+	
+You should see your editor pop up. Type 
+
+	puts "Hello world"
+
+And save the file.
 	
 #Command Prompt
 
