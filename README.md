@@ -5,7 +5,7 @@ BACK-END WEB DEVELOPMENT
 
 # Windows Users - Install Ubuntu
 
-If you're on a Mac or Linux already, you can skip this.
+## If you're on a Mac or Linux already, you can skip this.
 
 1. __Install VirtualBox__
 	* https://www.virtualbox.org/wiki/Downloads
