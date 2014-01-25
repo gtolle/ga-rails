@@ -238,7 +238,7 @@ Linux only:
 Everybody:
 
 1.	__Install RVM with Ruby 2.0.0__
-  	* ```\curl -L https://get.rvm.io | bash -s stable --ruby```
+  	* ```\curl -sSL https://get.rvm.io | bash -s stable --ruby```
   	* The backslash in font of "curl" is not a typo.
   	* ```rvm use 2.0.0 --default```
   	
