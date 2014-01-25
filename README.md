@@ -235,6 +235,19 @@ Everybody:
 
 2. Create and run a rails app
 
+	rails new myapp
+	cd myapp
+	rails server
+	
+	http://localhost:3000
+
+	Ctrl-C to kill the server
+	
+3. Delete that rails app
+
+	cd ..
+	rm -rf myapp
+	
 # Install Postgres
 
 https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
@@ -249,7 +262,9 @@ https://devcenter.heroku.com/
 
 https://devcenter.heroku.com/articles/quickstart
 
-Try creating and deploying an empty rails app:
+# Create and deploy a rails app on Heroku:
+
+See:
 
 https://devcenter.heroku.com/articles/getting-started-with-rails4
 
