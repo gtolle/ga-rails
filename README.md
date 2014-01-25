@@ -200,10 +200,9 @@ Try cloning this repository over SSH.
 
 #Install Git-Completion terminal file
 
-Download this file and place it into ~
-
-[.git-completion.sh](.git-completion.sh)
-
+	cd ga-rails
+	cp .git-completion.sh ~
+	
 Then:
 
 	subl ~/.bash_profile
