@@ -96,11 +96,11 @@ If windows seem to disppear, install CompizConfig Settings Manager and disable F
 
 Now see the the installation instructions for Ubuntu Linux!
   
-# Install Sublime Text
+# Everybody (Linux and Mac) - Install Sublime Text
 
 	http://www.sublimetext.com/
 
-Install 'subl' command line tool as well.
+Install the 'subl' command line tool as well.
 
 Mac:
 
