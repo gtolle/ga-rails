@@ -215,6 +215,18 @@ Delete the 'PS1' line and replace it with this:
 
 	export PS1="\[\e]0;\u@\h \w\a\]\n\[\e[34m\]\u@\h \[\e[33m\]\w\[\e[0m\]\$(__git_ps1)\n\$ "
 
+Now quit your terminal and start it again.
+
+Now cd into the ga-rails dir:
+
+	cd ga-rails
+
+You should see:
+
+	gtolle@Gilmans-MacBook-Air-2 ~/ga-rails (master)
+	$ 
+
+Whenever you're in a git repository directory, you'll see "(master)" in your prompt.
 
 #Install Ruby
 
