@@ -202,10 +202,16 @@ Add this line:
 
 #Install Ruby
 
-##Mac Users
+Linux only:
+
+1. __Install curl__
+	* ```sudo apt-get install curl```
+
+Everybody:
 
 1.	__Install RVM with Ruby 2.0.0__
   	* ```\curl -L https://get.rvm.io | bash -s stable --ruby```
+  	* The backslash in font of "curl" is not a typo.
   	* ```rvm use 2.0.0 --default```
   	
 2.	__Restart Your Terminal__
@@ -220,25 +226,6 @@ Add this line:
 
 			*	```ruby -v```
 			
-				You should get ruby 2.0.0p0 or higher.
-
-##Linux Users
-
-1. __Install curl__
-	* ```sudo apt-get install curl```
-
-2. __Install RVM__
-	* ```\curl -L https://get.rvm.io | bash -s stable --ruby```
-	* The backslash in font of "curl" is not a typo.
-	*	Close and reopen terminal
-	* ```rvm use 2.0.0 --default```
-	*	Make sure the latest versions of RVM and Ruby were installed, run the commands below:
-		*	For RVM
-			*	```rvm -v```
-				You should get rvm 1.0.0 or higher.
-		* 	For Ruby
-
-			*	```ruby -v```
 				You should get ruby 2.0.0p0 or higher.
 
 # Install Rails
