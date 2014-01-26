@@ -13,15 +13,15 @@ BACK-END WEB DEVELOPMENT
 2. __Download Ubuntu Linux__
 	* http://www.ubuntu.com/download/desktop
 	* Version 13.04 is probably preferable but 12.04 is also fine.
-
+        * Download the 64-bit version (which is selected by default)
+        * 
 3. __Create your virtual machine__
   	* Open VirtualBox and click the "New" button
   	* Enter any name
   	* Select "Linux" as the type
-  	* Select either "Ubuntu" or "Ubuntu (64 bit)" as the version depending on
-    which you downloaded.
+  	* Select either "Ubuntu (64 bit)" because you downloaded the 64 bit version.
   	* Memory size is the amount of your RAM that will be used to run
-    Linux. 1024MB should be more than enough, but if you have a lot of
+    Linux. 2048MB should be more than enough, but if you have a lot of
     RAM you can boost this number. If your machine only has 1GB of RAM
     then 512MB will have to do. If you're not sure, don't worry because
     this value can be changed later.
@@ -31,13 +31,15 @@ BACK-END WEB DEVELOPMENT
     space that your computer is capable of supporting. 8GB should be plenty.
   	* After clicking "Create", select the new virtual machine you created
     in the left column and press the "Start" button.
-  	* In the "Select start-up disk" window, select the Ubuntu Linux .iso
+  	* In the "Select start-up disk" window, browse for and select the Ubuntu Linux .iso
     file you downloaded and press start. You can then follow the Ubuntu
     installation instructions.
 
-Do this:
+After Ubuntu installation, your VM will restart. Don't let it use the virtual CD drive.
 
-http://askubuntu.com/questions/207813/why-does-a-ubuntu-12-10-guest-in-virtualbox-run-very-very-slowly
+Then, to speed up Ubuntu, do this:
+
+  http://askubuntu.com/questions/207813/why-does-a-ubuntu-12-10-guest-in-virtualbox-run-very-very-slowly
 
 To check if your Ubuntu 12.10 guest is using 3D acceleration, run this command:
 
@@ -82,18 +84,6 @@ As you can see, "Not software rendered" and "Unity 3D supported" both return "no
 
 	```/usr/lib/nux/unity_support_test -p```
 	
-If windows seem to disppear, install CompizConfig Settings Manager and disable Framebuffer Object (FBO) in the OpenGL section:
-
-1. Install the CompizConfig Settings Manager:
-
-	```sudo apt-get install compizconfig-settings-manager```
-
-2. Run the CompizConfig Settings Manager:
-
-	```$ ccsm```
-	
-3. Select the OpenGL section and then untick the Framebuffer Object option. If this fixes the issue it should be immediately visible. No reboot is required.
-
 Now see the the installation instructions for Ubuntu Linux!
   
 # Everybody (Mac and Linux)
