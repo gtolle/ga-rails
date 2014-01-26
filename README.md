@@ -183,6 +183,7 @@ application. It can be found in Applications/Utilities.
 	*	[https://developer.apple.com/downloads/index.action](https://developer.apple.com/downloads/index.action)
 	* First fill out an Apple Developer Profile - answer the questions as best you can
 	* Search for "Command Line Tools" and select the version appropriate for your operating system.
+	* If you're still on Snow Leopard (10.6), there's no Command Line Tools for you. Search for "xcode 4.2" and install the full Xcode 4.2 for Snow Leopard. Make sure all the checkboxes are checked in the installer, and it will come with the command line tools.
 	* Install the command line tools from the downloaded file.
 
 3. __Install Homebrew__
