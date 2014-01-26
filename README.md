@@ -102,11 +102,37 @@ Now see the the installation instructions for Ubuntu Linux!
 
 http://www.sublimetext.com/
 
+#Install Markdown Previewer
+  
+Because we will be using GitHub, many of your homework and agenda files will be in.md format. To view them you will need a markdown viewer.
+
+##Mac Users 
+
+ *	Markdown Preview:		[Mou](http://mouapp.com/) 
+	
+##Linux Users
+
+*	Open Sublime Text
+
+*	Go to "View" then "Show Console"
+
+*	Copy and paste the following into the white text box at the bottom of sublime.
+
+```import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')```
+
+*	Restart Sublime
+
+*	"cmd+shift+P" and select Package Control: Install Package
+
+*	Click Markdown Preview.
+
+When you want to view rendered markdown, open the file in sublime "cmd+shift+P" and select Markdown Preview. 
+
 # Run Terminal
 
 Finder > Applications > Utilities > Terminal
 
-# Install the 'subl' command line tool
+# Install the 'subl' command line tool for Sublime Text
 
 Mac:
 
@@ -134,7 +160,11 @@ And save the file.
 
 Make your command prompt prettier.
 
-Set your background to black and your foreground to white.
+Terminal > Preferences > Settings > Text and Window
+
+Set your terminal background to black, your foreground to light gray, and your bold to white.
+
+Then, in terminal:
 
 	$ subl ~/.bash_profile
 	
@@ -144,6 +174,11 @@ Paste these lines into the end:
 	export PS1="\[\e]0;\u@\h \w\a\]\n\[\e[34m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
 
 Restart your terminal.
+
+Now your prompt will show you the full current directory, highlighted in color:
+
+	gtolle@Gilmans-MacBook-Air-2 ~/ga-rails
+	$ 
 
 #Install Git
 
@@ -194,11 +229,13 @@ Make your SSH keys, using this guide:
 
 https://help.github.com/articles/generating-ssh-keys
 
+Once your keys are all set up.
+
 Try cloning this repository over SSH.
 
-	$ git clone <repo ssh URL>
+	$ git clone <paste the repo ssh URL here>
 
-#Install Git-Completion terminal file
+#Install the Git-Completion terminal file
 
 	cd ga-rails
 	cp .git-completion.sh ~
@@ -226,7 +263,7 @@ You should see:
 	gtolle@Gilmans-MacBook-Air-2 ~/ga-rails (master)
 	$ 
 
-Whenever you're in a git repository directory, you'll see "(master)" in your prompt.
+Whenever you're in a git repository directory, you'll see "(master)" in your prompt. And if you change git branches, you'll see the current branch in parentheses instead of (master).
 
 #Install Ruby
 
@@ -280,6 +317,8 @@ At terminal: Ctrl-C to kill the server
 	rm -rf myapp
 ```
 
+(note, I made it up to here in the most recent install session, and didn't have time for the following stuff)
+
 # Install Postgres
 
 https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
@@ -299,34 +338,6 @@ https://devcenter.heroku.com/articles/quickstart
 See:
 
 https://devcenter.heroku.com/articles/getting-started-with-rails4
-
-#Install Markdown Previewer
-  
-Because we will be using GitHub, many of your homework and agenda files will be in.md format. To view them you will need a markdown viewer.
-
-
-##Mac Users 
-
- *	Markdown Preview:		[Mou](http://mouapp.com/) 
-	
-		
-##Windows Users
-
-*	Open Sublime Text
-
-*	Go to "View" then "Show Console"
-
-*	Copy and paste the following into the white text box at the bottom of sublime.
-
-```import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')```
-
-*	Restart Sublime
-
-*	"cmd+shift+P" and select Package Control: Install Package
-
-*	Click Markdown Preview.
-
-When you want to view rendered markdown, open the file in sublime "cmd+shift+P" and select Markdown Preview. 
 
 ##Happy Coding :)
 
