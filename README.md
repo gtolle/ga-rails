@@ -126,7 +126,7 @@ Finder > Applications > Utilities > Terminal
 
 Mac:
 
-	sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
+	sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
 
 When it asks you for a password, enter your Mac system password (the one you use when you install apps).
 
