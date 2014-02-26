@@ -123,7 +123,13 @@ When you want to view rendered markdown, open the file in sublime "cmd+shift+P" 
 
 # Run Terminal
 
+Mac:
+
 Finder > Applications > Utilities > Terminal
+
+Linux:
+
+Look for the ubuntu Terminal icon in the doc. If not, search for the terminal app.
 
 # Install the 'subl' command line tool for Sublime Text
 
