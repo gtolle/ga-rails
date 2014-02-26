@@ -1,4 +1,9 @@
 BACK-END WEB DEVELOPMENT
+
+Congratulations on your decision to enter the world of Ruby on Rails! Please see below for the required pre-work to be completed before the course launch date. 
+
+Happy Coding :)
+
 ============================
 
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
@@ -329,6 +334,20 @@ https://devcenter.heroku.com/articles/quickstart
 See:
 
 https://devcenter.heroku.com/articles/getting-started-with-rails4
+
+#Exercises (mandatory): 
+1) Create an account with http://www.codecademy.com/ and complete the following lessons: 
+HTML & CSS
+-Introduction to HTML 
+-HTML Structure: Using Lists 
+-Introduction to CSS 
+Ruby
+-Introduction to Ruby 
+-Control Flow in Ruby 
+-Looping With Ruby 
+
+When completed, send section completed screenshot to kim@ga.co and Nicole@ga.co 
+
 
 ##Happy Coding :)
 
