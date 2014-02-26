@@ -1,12 +1,10 @@
-BACK-END WEB DEVELOPMENT
+# BACK-END WEB DEVELOPMENT
+
+![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 Congratulations on your decision to enter the world of Ruby on Rails! Please see below for the required pre-work to be completed before the course launch date. 
 
 Happy Coding :)
-
-============================
-
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 # Windows Users - Install Ubuntu
 
