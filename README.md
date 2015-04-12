@@ -135,7 +135,7 @@ Look for the ubuntu Terminal icon in the doc. If not, search for the terminal ap
 
 Mac:
 
-	sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
+	sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
 
 When it asks you for a password, enter your Mac system password (the one you use when you install apps).
 
